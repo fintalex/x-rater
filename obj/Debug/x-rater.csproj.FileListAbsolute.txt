@@ -1,0 +1,22 @@
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\x-rater.dll.config
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\x-rater.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\x-rater.pdb
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Helpers.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Mvc.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Razor.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.Deployment.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.Razor.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Razor.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.Deployment.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.Razor.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Helpers.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Mvc.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\obj\Debug\x-rater.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\obj\Debug\x-rater.pdb
+C:\Харченко\Тест проекты\x-rater\bin\x-rater.dll
+C:\Харченко\Тест проекты\x-rater\bin\x-rater.pdb
+C:\Харченко\Тест проекты\x-rater\obj\Debug\x-rater.dll
+C:\Харченко\Тест проекты\x-rater\obj\Debug\x-rater.pdb
