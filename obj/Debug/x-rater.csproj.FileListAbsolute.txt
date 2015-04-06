@@ -20,3 +20,8 @@ C:\Харченко\Тест проекты\x-rater\bin\x-rater.dll
 C:\Харченко\Тест проекты\x-rater\bin\x-rater.pdb
 C:\Харченко\Тест проекты\x-rater\obj\Debug\x-rater.dll
 C:\Харченко\Тест проекты\x-rater\obj\Debug\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\bin\x-rater.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\bin\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.pdb
