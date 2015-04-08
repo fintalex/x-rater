@@ -25,3 +25,9 @@ C:\Users\s.harchenko\Documents\GitHub\x-rater\bin\x-rater.pdb
 C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
 C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.dll
 C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.pdb
+C:\Projects\x-rater\bin\x-rater.dll.config
+C:\Projects\x-rater\bin\x-rater.dll
+C:\Projects\x-rater\bin\x-rater.pdb
+C:\Projects\x-rater\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+C:\Projects\x-rater\obj\Debug\x-rater.dll
+C:\Projects\x-rater\obj\Debug\x-rater.pdb
