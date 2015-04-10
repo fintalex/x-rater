@@ -41,3 +41,15 @@ C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\Models.pdb
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.pdb
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\x-rater.dll.config
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\x-rater.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\x-rater.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\Models.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\Models.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.pdb

@@ -17,7 +17,7 @@ namespace x_rater.Controllers
 		/// <returns></returns>
         public List<ExChangeRates> GetRates()
         {
-			BusinessLayer.CBService.DailyInfoSoapClient cbservice = new BusinessLayer.CBService.DailyInfoSoapClient(); /
+			BusinessLayer.CBService.DailyInfoSoapClient cbservice = new BusinessLayer.CBService.DailyInfoSoapClient();
 			DataSet curDataSet = cbservice.GetCursOnDate(DateTime.Now.AddDays(1));
 
 			DataTable dt = curDataSet.Tables[0];
