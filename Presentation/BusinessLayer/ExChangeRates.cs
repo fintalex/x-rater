@@ -11,24 +11,19 @@ namespace x_rater.Controllers
 {
     public class ExChangeRatesController
     {
+		/// <summary>
+		/// получаем список курса валют всех на текущий день
+		/// </summary>
+		/// <returns></returns>
         public List<ExChangeRates> GetRates()
         {
-			BusinessLayer.CBService.DailyInfoSoapClient cbservice = new BusinessLayer.CBService.DailyInfoSoapClient(); //.GetCursOnDate(new DateTime());
+			BusinessLayer.CBService.DailyInfoSoapClient cbservice = new BusinessLayer.CBService.DailyInfoSoapClient(); /
 			DataSet curDataSet = cbservice.GetCursOnDate(DateTime.Now.AddDays(1));
 
 			DataTable dt = curDataSet.Tables[0];
-			List<ExChangeRates> list = new List<ExChangeRates>(); // dt.DataTableToList<ExChangeRates>();
-
-			
-			var c = cbservice.GetCursDynamic(DateTime.Now.AddYears(-1), DateTime.Now, "R01235");
-
-			var r = cbservice.GetCursDynamic(DateTime.Now.AddYears(-1), DateTime.Now, "R01235");
-
-			var r2 = cbservice.GetCursDynamicXML(DateTime.Now.AddDays(-100), DateTime.Now, "R01235");
-
-			DataSet r3 = cbservice.GetCursDynamic(DateTime.Now.AddDays(-100), DateTime.Now, "R01235");
-
-            return list;
+			List<ExChangeRates> list = dt.DataTableToList<ExChangeRates>();
+						
+			return list;
         }
 
 		/// <summary>
@@ -48,7 +43,14 @@ namespace x_rater.Controllers
 			return listValutes;
 		}
 
-		public void GetDynamicOfCurs(DateTime timeFrom, DateTime timeTo, string valuteCode)
+		/// <summary>
+		/// Получаем массик по динамике изменения курса за период времени
+		/// </summary>
+		/// <param name="timeFrom"></param>
+		/// <param name="timeTo"></param>
+		/// <param name="valuteCode"></param>
+		/// <returns></returns>
+		public List<ValuteCurs> GetDynamicOfCurs(DateTime timeFrom, DateTime timeTo, string valuteCode)
 		{
 			BusinessLayer.CBService.DailyInfoSoapClient cbservice = new BusinessLayer.CBService.DailyInfoSoapClient();
 
@@ -56,7 +58,9 @@ namespace x_rater.Controllers
 
 			DataTable dtDynamicCurs = dsDynamicCurs.Tables[0];
 
-			List<Valute> listValutes = dtDynamicCurs.DataTableToList<Valute>();
+			List<ValuteCurs> listValutes = dtDynamicCurs.DataTableToList<ValuteCurs>();
+
+			return listValutes;
 		}
     }
 
