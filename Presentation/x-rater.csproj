@@ -101,15 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\ExChangeRates.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Infrastructure\Helper.cs" />
-    <Compile Include="Models\ExChangeRates.cs" />
-    <Compile Include="Models\Valute.cs" />
-    <Compile Include="Models\ValuteCurs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\CBService\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -143,6 +138,20 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\CBService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{96a64521-adc1-4af1-83c0-12cb2d21079d}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="BusinessLayer\BusinessLayer.csproj">
+      <Project>{fed1bc55-de38-4d9c-9ce5-8abff222f2dc}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="WebInfrastructure\WebInfrastructure.csproj">
+      <Project>{63c03df1-6deb-409b-b381-bfeb4a87f239}</Project>
+      <Name>WebInfrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

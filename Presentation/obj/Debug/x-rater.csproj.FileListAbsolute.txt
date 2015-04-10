@@ -35,3 +35,9 @@ C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\x-rater.pdb
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.dll
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\Models.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\Models.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.pdb

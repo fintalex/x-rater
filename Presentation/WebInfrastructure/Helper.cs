@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Web;
 
-namespace x_rater.Infrastructure
+namespace WebInfrastructure
 {
     public static class Helper
     {
