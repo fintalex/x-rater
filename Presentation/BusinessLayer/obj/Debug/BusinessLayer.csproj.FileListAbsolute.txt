@@ -1,13 +1,3 @@
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\BusinessLayer.dll.config
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\BusinessLayer.dll
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\BusinessLayer.pdb
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\Models.dll
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\WebInfrastructure.dll
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\Models.pdb
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\WebInfrastructure.pdb
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.dll
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.pdb
 C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\BusinessLayer.dll.config
@@ -18,3 +8,13 @@ C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\
 C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\Models.pdb
 C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\WebInfrastructure.pdb
 C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\Models.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\WebInfrastructure.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\Models.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\bin\Debug\WebInfrastructure.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\BusinessLayer\obj\Debug\BusinessLayer.pdb

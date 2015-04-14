@@ -2,7 +2,7 @@
 module AppModule {
 
 	angular
-		.module('cabinetApp', [
+		.module('xraterApp', [
 			//'ngSanitize',
 			//'ui.bootstrap',
 			//'ui'

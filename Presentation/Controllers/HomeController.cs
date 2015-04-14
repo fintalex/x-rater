@@ -11,10 +11,10 @@ namespace x_rater.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public ActionResult Index()
+        public ActionResult Default()
 		{
-            ExChangeRatesController ex = new ExChangeRatesController();
-            List<ExChangeRates> ds = ex.GetRates();
+			//ExChangeRatesController ex = new ExChangeRatesController();
+			//List<ExChangeRates> ds = ex.GetRates();
 			
             return View();
         }

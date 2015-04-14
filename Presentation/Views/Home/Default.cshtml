@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "Default";
+}
+
+<h2>My Index Second Version</h2>
+
+<div class="row">
+    <div class="col-xs-5 col-xs-offset-1 col-md-5 col-md-offset-1">
+        <h2 class="text-danger">Website is under construction!</h2>
+    </div>
+    <div class="col-xs-6 col-md-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-xs-5 col-xs-offset-1 col-md-5 col-md-offset-1">
+        <p class="text-muted">Sorry for waiting and thanks for your attention!</p>
+        <p class="text-muted">You can try our mini game. Use UP, DOWN, RIGHT and LEFT buttons to turn a snake.</p>
+    </div>
+    <div class="col-xs-6 col-md-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-xs-6 col-xs-offset-1 col-md-6 col-md-offset-1">
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+    <div class="col-xs-6 col-md-6"></div>
+</div>
+
+<div ng-controller="defaultController as dfctrl">
+	Here is our scope for controler
+	2+2={{2+2}}
+</div>
+
+	<script src="~/Scripts/cabApp/controllers/DefaultCtrl.js"></script>
+	
+	<script>
+		// ============================ скрипт для ангуляра, с пояснениями для себя ====================================
+		// в данном проекте нужно будет как то подключать js-ники(подключать контроллеры для страницы, которые сгенерированы ts-ником)
+		(function (G, angular) { // эта конструкция пока еще не понятна мне
+
+			angular
+				.module('xraterApp') // указываем главный модуль, я так понимаю его всегда будем использовать
+				.controller('defaultController', DefaultModule.Controller); // указываем наш контроллер. После того как подключили скрипт выше (DefaultCtrl) - можем юзать уже имена оттуда 
+
+		})(this, angular); // эта тоже пока не понятна
+
+		// ============================ // ============================ // ============================ // ============================ 
+	</script>
+
+	<script>
+			(function() {
+				'use strict';
+
+
+				function getNewRowStart() {
+					var start = '<div class="row">' +
+  							'<div class="col-xs-5 col-xs-offset-1 col-md-5 col-md-offset-1">';
+					return start;
+				}
+
+				function getNewRowEnd() {
+					var end = '</div>';
+					return end;
+				}
+
+				function printToDay(day, month, year) {
+					var dateView =
+						getNewRowStart() +
+						'<p style="font-size:22px">Today is ' +
+						day +
+						'.' +
+						month +
+						'.' +
+						year +
+						'</p>' +
+						getNewRowEnd();
+					document.write(dateView);
+				}
+
+				function printDaysCount(daysCount) {
+					var dayView =
+					getNewRowStart() +
+					'<p style="font-size:24px">' +
+					'<span class="text-success" ' +
+					'style="font-size:36px">' +
+					daysCount +
+					'</span>' +
+					' days left until the early of summer' +
+					getNewRowEnd();
+					document.write(dayView);
+				}
+
+				var today = new Date();
+				var month = today.getMonth() + 1; //months from 1-12
+				var day = today.getDate();
+				var year = today.getFullYear();
+				printToDay(day, month, year);
+
+				var firstSummerDay = new Date('6/1/' + year); // days left until the summer
+				var timeDiff = Math.abs(firstSummerDay.getTime() - today.getTime());
+				while(timeDiff < 0) {
+					firstSummerDay.setFullYear(year + 1);
+					timeDiff = Math.abs(firstSummerDay.getTime() - today.getTime());
+				}
+				var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+				printDaysCount(diffDays);
+
+
+			})();
+
+	</script>
