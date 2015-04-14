@@ -4,6 +4,5 @@ C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\WebInfrastructure\
 C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\WebInfrastructure\obj\Debug\WebInfrastructure.pdb
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\WebInfrastructure\bin\Debug\WebInfrastructure.dll
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\WebInfrastructure\bin\Debug\WebInfrastructure.pdb
-C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\WebInfrastructure\obj\Debug\WebInfrastructure.csprojResolveAssemblyReference.cache
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\WebInfrastructure\obj\Debug\WebInfrastructure.dll
 C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\WebInfrastructure\obj\Debug\WebInfrastructure.pdb

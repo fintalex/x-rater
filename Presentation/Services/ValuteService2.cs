@@ -10,7 +10,7 @@ using BL;
 namespace x_rater.Services
 {
 	[ScriptService()]
-	public class ValuteService
+	public class ValuteService2 : WebService
 	{
 		[WebMethod(EnableSession = true)]
 		[ScriptMethod]
