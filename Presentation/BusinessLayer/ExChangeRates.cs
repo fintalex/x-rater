@@ -7,7 +7,7 @@ using System.Web;
 using Models;
 using WebInfrastructure;
 
-namespace x_rater.Controllers
+namespace BL
 {
     public class ExChangeRatesController
     {

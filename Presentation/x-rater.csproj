@@ -121,6 +121,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Services\ValuteService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -145,7 +146,6 @@
     <Folder Include="Scripts\cabApp\filters\" />
     <Folder Include="Scripts\cabApp\modal\" />
     <Folder Include="Scripts\cabApp\templates\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

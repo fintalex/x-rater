@@ -1,7 +1,6 @@
 ﻿/// <reference path="../../types/reference.ts" />
 var ServiceModule;
 (function (ServiceModule) {
-    //var MAIN_ROOT = location.origin + '<%=  ResolveUrl("~/") %>';
     function angularServiceTemplateMethod($http, $q, $log) {
         function angularServiceTemplateMethod(path, parametresJson) {
             $log.debug([new Date().toLocaleTimeString(), path, 'send', parametresJson]); // LOGGER
@@ -36,4 +35,6 @@ var ServiceModule;
             }
         };
     }
+
+    angular.module('xraterApp').factory('angularServiceTemplateMethod', angularServiceTemplateMethod).factory('valuteService', valuteService);
 })(ServiceModule || (ServiceModule = {}));
