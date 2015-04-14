@@ -3,12 +3,9 @@
 module DefaultModule {
 	export class Controller {
 		valuteService: any;
-		listValute: any = [
-			{ Name: 'USD', Code: '84034sd'},
-			{ Name: 'EUR', Code: '926'},
-			{ Name: 'YUN', Code: '555'}
-		];
-		list: any;
+		listValute: any;
+		chosenValute: any;
+
 
 
 		static $inject = ['$scope', 'valuteService'];
@@ -22,8 +19,13 @@ module DefaultModule {
 		getValuteList() {
 			this.valuteService.getValuteList().then(
 				(resultList) => {
-					this.list = resultList;
+					this.listValute = resultList;
 				});
+		}
+
+		/** Выбор валюты **/
+		chosenValuteChanged(): void {
+
 		}
 	}
 }

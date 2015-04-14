@@ -30,6 +30,11 @@
 <div ng-controller="defaultController as dfctrl">
 	Here is our scope for controler
 	2+2={{2+2}}
+	<select name="valutes" class="form-control"
+		ng-model="dfctrl.chosenValute"
+		ng-change="ctrl.chosenValuteChanged()"
+		ng-options="valute.Vname for valute in dfctrl.listValute">
+	</select>
 </div>
 
 	<script src="~/Scripts/cabApp/controllers/DefaultCtrl.js"></script>
