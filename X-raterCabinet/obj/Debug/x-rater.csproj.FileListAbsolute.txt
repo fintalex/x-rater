@@ -1,0 +1,66 @@
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\x-rater.dll.config
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\x-rater.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\x-rater.pdb
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Helpers.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Mvc.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Razor.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.Deployment.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.Razor.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Razor.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.Deployment.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Webpages.Razor.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Helpers.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\bin\System.Web.Mvc.xml
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\obj\Debug\x-rater.dll
+c:\users\алексей\documents\visual studio 2013\Projects\x-rater\x-rater\obj\Debug\x-rater.pdb
+C:\Харченко\Тест проекты\x-rater\bin\x-rater.dll
+C:\Харченко\Тест проекты\x-rater\bin\x-rater.pdb
+C:\Харченко\Тест проекты\x-rater\obj\Debug\x-rater.dll
+C:\Харченко\Тест проекты\x-rater\obj\Debug\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\bin\x-rater.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\bin\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\obj\Debug\x-rater.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\bin\x-rater.dll.config
+C:\Users\Алексей\Documents\GitHub\x-rater\bin\x-rater.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\bin\x-rater.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\obj\Debug\x-rater.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\obj\Debug\x-rater.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\x-rater.dll.config
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\x-rater.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\x-rater.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\Models.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\Models.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.pdb
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.dll
+C:\Users\Алексей\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\x-rater.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\Models.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\Models.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\BusinessLayer.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\bin\WebInfrastructure.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\Presentation\obj\Debug\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\bin\x-rater.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\bin\x-rater.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\bin\BusinessLayer.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\bin\Models.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\bin\WebInfrastructure.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\bin\BusinessLayer.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\bin\Models.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\bin\WebInfrastructure.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\obj\Debug\x-rater.csprojResolveAssemblyReference.cache
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\obj\Debug\x-rater.dll
+C:\Users\s.harchenko\Documents\GitHub\x-rater\X-raterCabinet\obj\Debug\x-rater.pdb
