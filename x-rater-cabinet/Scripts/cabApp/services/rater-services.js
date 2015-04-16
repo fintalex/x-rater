@@ -29,9 +29,16 @@ var ServiceModule;
     function valuteService(angularServiceTemplateMethod) {
         return {
             ROOT: MAIN_ROOT + 'ValuteService.asmx/',
-            /* Наши комментарии  */
+            /** Наши комментарии  **/
             getValuteList: function () {
                 return angularServiceTemplateMethod.call(this.ROOT + 'GetValuteList', {});
+            },
+            getDynamicOfCurs: function (timeFrom, timeTo, vcode) {
+                return angularServiceTemplateMethod.call(this.ROOT + 'GetDynamicOfCurs', {
+                    timeFrom: timeFrom,
+                    timeTo: timeTo,
+                    valuteCode: vcode
+                });
             }
         };
     }

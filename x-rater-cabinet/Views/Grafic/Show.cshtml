@@ -1,0 +1,49 @@
+﻿@{
+	ViewBag.Title = "Show";
+}
+
+<div ng-controller="valuteController as ctrl">
+
+	<select name="valutes" class="form-control"
+		ng-model="ctrl.chosenValute"
+		ng-change="ctrl.chosenValuteChanged()"
+		ng-options="valute.Vname for valute in ctrl.listValute">
+	</select>
+	Курс валюты:
+
+	<table class="table table-striped table-hover">
+		<thead>
+			<tr>
+				<th>Дата</th>
+				<th>Номинал</th>
+				<th>Курс</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="valute in ctrl.listDynamicCurs">
+				<td>{{valute.CursDate | date:'dd.MM.yyyy' }}</td>
+				<td>{{valute.Vnom}}</td>
+				<td>{{valute.Vcurs}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+
+
+<script src="~/Scripts/cabApp/controllers/ValuteCtrl.js"></script>
+
+<script>
+	// ============================ скрипт для ангуляра, с пояснениями для себя ====================================
+	// в данном проекте нужно будет как то подключать js-ники(подключать контроллеры для страницы, которые сгенерированы ts-ником)
+	(function (G, angular) { // эта конструкция пока еще не понятна мне
+
+		angular
+			.module('xraterApp') // указываем главный модуль, я так понимаю его всегда будем использовать
+			.controller('valuteController', ValutesModule.Controller); // указываем наш контроллер. После того как подключили скрипт выше (DefaultCtrl) - можем юзать уже имена оттуда 
+
+	})(this, angular); // эта тоже пока не понятна
+
+	// ============================ // ============================ // ============================ // ============================ 
+</script>

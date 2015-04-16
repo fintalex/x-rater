@@ -28,17 +28,17 @@
     <div class="col-xs-6 col-md-6"></div>
 </div>*@
 
-<div ng-controller="defaultController as dfctrl">
+<div ng-controller="valuteController as ctrl">
 	Here is our scope for controler
 	2+2={{2+2}}
 	<select name="valutes" class="form-control"
-		ng-model="dfctrl.chosenValute"
+		ng-model="ctrl.chosenValute"
 		ng-change="ctrl.chosenValuteChanged()"
-		ng-options="valute.Vname for valute in dfctrl.listValute">
+		ng-options="valute.Vname for valute in ctrl.listValute">
 	</select>
 </div>
 
-	<script src="~/Scripts/cabApp/controllers/DefaultCtrl.js"></script>
+	<script src="~/Scripts/cabApp/controllers/ValuteCtrl.js"></script>
 	
 	<script>
 		// ============================ скрипт для ангуляра, с пояснениями для себя ====================================
@@ -47,7 +47,7 @@
 
 			angular
 				.module('xraterApp') // указываем главный модуль, я так понимаю его всегда будем использовать
-				.controller('defaultController', DefaultModule.Controller); // указываем наш контроллер. После того как подключили скрипт выше (DefaultCtrl) - можем юзать уже имена оттуда 
+				.controller('valuteController', ValutesModule.Controller); // указываем наш контроллер. После того как подключили скрипт выше (DefaultCtrl) - можем юзать уже имена оттуда 
 
 		})(this, angular); // эта тоже пока не понятна
 

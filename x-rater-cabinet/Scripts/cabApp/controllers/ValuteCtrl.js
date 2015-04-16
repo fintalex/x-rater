@@ -1,6 +1,6 @@
 ﻿/// <reference path="../../types/reference.ts" />
-var DefaultModule;
-(function (DefaultModule) {
+var ValutesModule;
+(function (ValutesModule) {
     var Controller = (function () {
         // dfg
         function Controller($scope, valuteService) {
@@ -15,11 +15,20 @@ var DefaultModule;
             });
         };
 
+        /** Получения динамики изменений по курсу валюты !**/
+        Controller.prototype.getDynamicCurs = function () {
+            var _this = this;
+            this.valuteService.getDynamicOfCurs(null, null, this.chosenValute.Vcode).then(function (resList) {
+                _this.listDynamicCurs = resList;
+            });
+        };
+
         /** Выбор валюты **/
         Controller.prototype.chosenValuteChanged = function () {
+            this.getDynamicCurs();
         };
         Controller.$inject = ['$scope', 'valuteService'];
         return Controller;
     })();
-    DefaultModule.Controller = Controller;
-})(DefaultModule || (DefaultModule = {}));
+    ValutesModule.Controller = Controller;
+})(ValutesModule || (ValutesModule = {}));
