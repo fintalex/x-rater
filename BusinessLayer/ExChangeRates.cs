@@ -7,7 +7,7 @@ using System.Web;
 using Models;
 using WebInfrastructure;
 
-namespace BL
+namespace BusinessLayer
 {
     public class ExChangeRatesController
     {
