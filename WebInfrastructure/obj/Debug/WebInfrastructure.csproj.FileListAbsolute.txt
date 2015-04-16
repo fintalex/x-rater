@@ -10,3 +10,4 @@ C:\Users\s.harchenko\Documents\GitHub\x-rater\WebInfrastructure\bin\Debug\WebInf
 C:\Users\s.harchenko\Documents\GitHub\x-rater\WebInfrastructure\bin\Debug\WebInfrastructure.pdb
 C:\Users\s.harchenko\Documents\GitHub\x-rater\WebInfrastructure\obj\Debug\WebInfrastructure.dll
 C:\Users\s.harchenko\Documents\GitHub\x-rater\WebInfrastructure\obj\Debug\WebInfrastructure.pdb
+C:\Users\s.harchenko\Documents\GitHub\x-rater\WebInfrastructure\obj\Debug\WebInfrastructure.csprojResolveAssemblyReference.cache
