@@ -1,4 +1,7 @@
 
 
-#А теперь наши настройки.
+#Here is may be a comments
 *.suo
+*.txt
+*.cache
+*.pdb
