@@ -13,8 +13,8 @@
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
 
 	@*подключение главных файлов для начальной структуры ангуляра*@
-    <script src="~/Scripts/cabApp/xrater-app.js"></script>
-	<script src="~/Scripts/cabApp/services/rater-services.js"></script>
+    <script src="~/Scripts/cabApp/xraterApp.js"></script>
+	<script src="~/Scripts/cabApp/services/raterServices.js"></script>
 </head>
 <body ng-app="xraterApp">
    
@@ -24,7 +24,7 @@
 		<div class="container">
 
 			<div class="navbar-header">
-				<a href="#" class="navbar-brand">X-RATER</a>
+				@Html.ActionLink("X-RATER", "Default", "Home") @*<a href="#" class="navbar-brand">X-RATER</a>*@
 			</div>
 
 			<ul class="nav navbar-nav">

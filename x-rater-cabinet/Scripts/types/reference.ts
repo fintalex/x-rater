@@ -7,6 +7,8 @@
 /// <reference path="rickshaw/rickshaw.d.ts" />
 /// <reference path="bootbox/bootbox.d.ts" />
 
+/// <reference path="highcharts/highcharts.d.ts" />
+
 declare var APP_IS_TEST: boolean;
 declare var APP_VERSION: string;
 declare var MAIN_ROOT: string;
