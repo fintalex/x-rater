@@ -16,7 +16,7 @@ $(document).ready(function(){
 	
 	function init()
 	{
-		d = "right"; //default direction
+		d = "right"; //default direction 
 		create_snake();
 		create_food(); //Now we can see the food particle
 		//finally lets display the score
