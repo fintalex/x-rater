@@ -5,8 +5,5 @@
 *.txt
 *.cache
 *.pdb
-x-rater-cabinet/obj/*
-x-rater-cabinet/bin/*
-BusinessLayer/bin/*
-BusinessLayer/bin/
-BusinessLayer/bin/Debug/BusinessLayer.dll
+obj
+bin
