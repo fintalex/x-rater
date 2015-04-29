@@ -155,6 +155,7 @@
     <Content Include="Scripts\types\rickshaw\rickshaw.d.ts" />
     <Content Include="Scripts\types\toastr\toastr.d.ts" />
     <Content Include="Scripts\types\underscore\underscore.d.ts" />
+    <Content Include="Scripts\underscore-min.js" />
     <Content Include="Services\ValuteService.asmx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
