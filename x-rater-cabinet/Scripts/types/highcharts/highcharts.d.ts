@@ -172,7 +172,8 @@ interface HighchartsGradient {
 		cx: number; cy: number; r: number;
 	};
 	stops?: any[][];
-	brighten? (amount: number): HighchartsGradient;
+    brighten? (amount: number): HighchartsGradient;
+    setOpacity? (amount: number);
 	get? (type: string): string;
 }
 

@@ -12,6 +12,6 @@ module AppModule {
 		})
 		.run(function ($rootScope) {
 			$rootScope.appStarted = new Date();
-		});
+        });
 
 }
