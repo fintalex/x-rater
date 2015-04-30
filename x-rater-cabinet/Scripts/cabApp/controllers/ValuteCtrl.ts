@@ -31,10 +31,8 @@ module ValutesModule {
                 (resList) => {
                     this.listDynamicCurs = resList;
                     // делаем маппинг с андерскором для получения массива значений
-                    //this.arrayCurs = _.map(resList, function (item: any) { return item.Vcurs; });
-                    for (var i: number = 0; i < resList.length; i++) {
-                        this.arrayCurs.push(resList[i].Vcurs);
-                    }
+                    this.arrayCurs = [];
+                    this.arrayCurs = _.map(resList, function (item: any) { return item.Vcurs; });
                     this.customiseChart();
                 });
         }
@@ -58,7 +56,7 @@ module ValutesModule {
                     zoomType: 'x'
                 },
                 title: {
-                    text: 'USD to EUR exchange rate from 2006 through 2008'
+                    text: 'exchange rate for last 3 months'
                 },
                 subtitle: {
                     text: 'Click and drag in the plot area to zoom in' 
@@ -78,7 +76,7 @@ module ValutesModule {
                 plotOptions: {
                     area: {
                         fillColor: {
-                            linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
+                            linearGradient: { x0: 0, y0: 0, x1: 0, y1: 1 },
                             stops: [
                                 [0, Highcharts.getOptions().colors[0]],
                                 [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
@@ -100,7 +98,7 @@ module ValutesModule {
                     type: 'area',
                     name: 'USD to EUR',
                     pointInterval: 24 * 3600 * 1000,
-                    pointStart: Date.UTC(2006, 0, 1),
+                    pointStart: Date.UTC(2015, 0, 1),
                     data: this.arrayCurs
                     
                 }]

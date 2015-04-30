@@ -33,7 +33,7 @@ namespace x_rater.Services
 			ExChangeRatesController exRatesCtrl = new ExChangeRatesController();
 			List<ValuteCurs> listDynamic = exRatesCtrl.GetDynamicOfCurs(DateTime.Now.AddMonths(-5), DateTime.Now, valuteCode);
 
-			return new { r = JsonConvert.SerializeObject(listDynamic.OrderByDescending(c => c.CursDate)) };
+			return new { r = JsonConvert.SerializeObject(listDynamic) };
 		}
 	}
 }
