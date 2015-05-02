@@ -132,7 +132,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\angular.js" />
-    <TypeScriptCompile Include="Scripts\cabApp\controllers\valuteCtrl.ts" />
+    <Content Include="Scripts\cabApp\controllers\valuteCtrl.ts" />
     <Content Include="Scripts\cabApp\controllers\valuteCtrl.js" />
     <Content Include="Scripts\cabApp\services\raterServices.js" />
     <Content Include="Scripts\cabApp\services\raterServices.ts" />

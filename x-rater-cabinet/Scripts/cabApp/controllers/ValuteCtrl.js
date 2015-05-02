@@ -4,7 +4,8 @@ var ValutesModule;
     var Controller = (function () {
         /** конструктор **/
         function Controller($scope, valuteService) {
-            this.arrayCurs = [50];
+            this.arrayCurs = [];
+            this.seriesForCurs = [];
             this.valuteService = valuteService;
 
             this.getValuteList();
@@ -24,11 +25,18 @@ var ValutesModule;
             this.valuteService.getDynamicOfCurs(null, null, this.chosenValute.Vcode).then(function (resList) {
                 _this.listDynamicCurs = resList;
 
-                // делаем маппинг с андерскором для получения массива значений
-                _this.arrayCurs = [];
-                _this.arrayCurs = _.map(resList, function (item) {
-                    return item.Vcurs;
+                // делаем маппинг(на курс и дату) с андерскором для получения массива значений
+                //this.arrayCurs = [];
+                var tempArray = [];
+                tempArray = _.map(resList, function (item) {
+                    return [new Date(item.CursDate).getTime(), item.Vcurs];
                 });
+
+                _this.seriesForCurs.push({
+                    name: _this.chosenValute.Vname,
+                    data: tempArray
+                });
+
                 _this.customiseChart();
             });
         };
@@ -42,6 +50,7 @@ var ValutesModule;
             // setOptions - doesn't need because it need only for global and lang
             var chart2 = new Highcharts.Chart({
                 chart: {
+                    type: 'spline',
                     renderTo: 'container',
                     height: 400,
                     spacingRight: 20,
@@ -68,7 +77,7 @@ var ValutesModule;
                 plotOptions: {
                     area: {
                         fillColor: {
-                            linearGradient: { x0: 0, y0: 0, x1: 0, y1: 1 },
+                            linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
                             stops: [
                                 [0, Highcharts.getOptions().colors[0]],
                                 [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
@@ -86,13 +95,7 @@ var ValutesModule;
                         threshold: null
                     }
                 },
-                series: [{
-                        type: 'area',
-                        name: 'USD to EUR',
-                        pointInterval: 24 * 3600 * 1000,
-                        pointStart: Date.UTC(2015, 0, 1),
-                        data: this.arrayCurs
-                    }]
+                series: this.seriesForCurs
             });
             //var div: HTMLDivElement;
             //var r = new Highcharts.Renderer(div, 20, 30);
