@@ -32,8 +32,9 @@ var ValutesModule;
                     return [new Date(item.CursDate).getTime(), item.Vcurs];
                 });
 
+                var name = angular.copy(_this.chosenValute.Vname);
                 _this.seriesForCurs.push({
-                    name: _this.chosenValute.Vname,
+                    name: name,
                     data: tempArray
                 });
 
@@ -50,7 +51,6 @@ var ValutesModule;
             // setOptions - doesn't need because it need only for global and lang
             var chart2 = new Highcharts.Chart({
                 chart: {
-                    type: 'spline',
                     renderTo: 'container',
                     height: 400,
                     spacingRight: 20,

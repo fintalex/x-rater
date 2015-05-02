@@ -7,7 +7,7 @@ module ValutesModule {
         chosenValute: any;
         listDynamicCurs: any;
         arrayCurs: any[] = [];
-        seriesForCurs: any[]=[];
+        seriesForCurs: any[] = [];
 
         static $inject = ['$scope', 'valuteService'];
 
@@ -39,17 +39,16 @@ module ValutesModule {
                         return [new Date(item.CursDate).getTime(), item.Vcurs];
                     });
 
-
+                    var name = angular.copy(this.chosenValute.Vname);
                     this.seriesForCurs.push(
                         {
-                            name: this.chosenValute.Vname,
+                            name: name,
                             data: tempArray
                         });
 
                     this.customiseChart();
                 });
         }
-
 
         /** Выбор валюты **/
         chosenValuteChanged(): void {
@@ -63,7 +62,6 @@ module ValutesModule {
 
             var chart2 = new Highcharts.Chart({
                 chart: {
-                    type: 'spline',
                     renderTo: 'container',
                     height: 400,
                     spacingRight: 20,
@@ -105,9 +103,10 @@ module ValutesModule {
                                 lineWidth: 1
                             }
                         },
-                        threshold: null
+                        threshold: null // nullable border-  if null - y start from minimum value, if number - y will start from this number
                     }
                 },
+
                 series: this.seriesForCurs
                 //series: [{
                 //    type: 'area',
