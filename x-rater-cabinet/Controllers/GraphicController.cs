@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace x_rater.Controllers
 {
-    public class GraficController : Controller
+    public class GraphicController : Controller
     {
         public ActionResult Show()
         {
@@ -14,6 +14,11 @@ namespace x_rater.Controllers
         }
 
         public ActionResult Spline()
+        {
+            return View();
+        }
+
+        public ActionResult testts()
         {
             return View();
         }

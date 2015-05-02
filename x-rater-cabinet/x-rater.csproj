@@ -112,7 +112,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\GraficController.cs" />
+    <Compile Include="Controllers\GraphicController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -132,7 +132,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\cabApp\controllers\valuteCtrl.ts" />
+    <TypeScriptCompile Include="Scripts\cabApp\controllers\valuteCtrl.ts" />
+    <Content Include="Scripts\cabApp\controllers\testTS.js" />
     <Content Include="Scripts\cabApp\controllers\valuteCtrl.js" />
     <Content Include="Scripts\cabApp\services\raterServices.js" />
     <Content Include="Scripts\cabApp\services\raterServices.ts" />
@@ -209,10 +210,20 @@
     <Content Include="Properties\DataSources\System.Xml.XmlNode.datasource" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Grafic\Show.cshtml" />
+    <Content Include="Views\Graphic\Show.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Grafic\Spline.cshtml" />
+    <Content Include="Views\Graphic\Spline.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Graphic\testts.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\cabApp\controllers\testTS.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\cabApp\controllers\testTS.js.map" />
+    <Content Include="Scripts\cabApp\controllers\valuteCtrl.js.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

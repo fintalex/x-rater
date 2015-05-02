@@ -37,19 +37,18 @@ var ValutesModule;
                     name: name,
                     data: tempArray
                 });
-
-                _this.customiseChart();
+                //this.customiseChart();
             });
         };
 
-        /** Выбор валюты **/
+        /** Выбор валюты sdf **/
         Controller.prototype.chosenValuteChanged = function () {
             this.getDynamicCurs();
         };
 
         Controller.prototype.customiseChart = function () {
             // setOptions - doesn't need because it need only for global and lang
-            var chart2 = new Highcharts.Chart({
+            this.chart = new Highcharts.Chart({
                 chart: {
                     renderTo: 'container',
                     height: 400,
@@ -76,13 +75,13 @@ var ValutesModule;
                 },
                 plotOptions: {
                     area: {
-                        fillColor: {
-                            linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
-                            stops: [
-                                [0, Highcharts.getOptions().colors[0]],
-                                [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
-                            ]
-                        },
+                        //fillColor: {
+                        //    linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
+                        //    stops: [
+                        //        [0, Highcharts.getOptions().colors[0]],
+                        //        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                        //    ]
+                        //},
                         marker: {
                             radius: 2
                         },

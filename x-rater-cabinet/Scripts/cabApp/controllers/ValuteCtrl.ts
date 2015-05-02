@@ -8,6 +8,7 @@ module ValutesModule {
         listDynamicCurs: any;
         arrayCurs: any[] = [];
         seriesForCurs: any[] = [];
+        chart: HighchartsChartObject;
 
         static $inject = ['$scope', 'valuteService'];
 
@@ -46,11 +47,11 @@ module ValutesModule {
                             data: tempArray
                         });
 
-                    this.customiseChart();
+                    //this.customiseChart();
                 });
         }
 
-        /** Выбор валюты **/
+        /** Выбор валюты sdf **/
         chosenValuteChanged(): void {
             this.getDynamicCurs();
         }
@@ -60,7 +61,7 @@ module ValutesModule {
             // setOptions - doesn't need because it need only for global and lang
 
 
-            var chart2 = new Highcharts.Chart({
+            this.chart = new Highcharts.Chart({
                 chart: {
                     renderTo: 'container',
                     height: 400,
@@ -87,13 +88,13 @@ module ValutesModule {
                 },
                 plotOptions: {
                     area: {
-                        fillColor: {
-                            linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
-                            stops: [
-                                [0, Highcharts.getOptions().colors[0]],
-                                [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
-                            ]
-                        },
+                        //fillColor: {
+                        //    linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
+                        //    stops: [
+                        //        [0, Highcharts.getOptions().colors[0]],
+                        //        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                        //    ]
+                        //},
                         marker: {
                             radius: 2
                         },
