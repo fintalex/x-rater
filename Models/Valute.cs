@@ -30,7 +30,7 @@ namespace Models
 		/// <summary>
 		/// Внутренний код валюты, являющейся 'базовой' - этот код используется для связи, при изменениях кодов или названий фактически одной и той же валюты.
 		/// </summary>
-		public double VcommonCode;
+        public string VcommonCode;
 
 		/// <summary>
 		/// цифровой код ISO (840 - USD ; 978 - EUR ; 643 - RUB)

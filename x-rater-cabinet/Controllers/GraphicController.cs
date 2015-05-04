@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessLayer;
+using Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +12,11 @@ namespace x_rater.Controllers
     {
         public ActionResult Show()
         {
+            ExChangeRatesController exRatesCtrl = new ExChangeRatesController();
+            List<Valute> list = exRatesCtrl.GetListValutes();
+
+            ViewBag.ValuteList = list;
+
             return View();
         }
 
