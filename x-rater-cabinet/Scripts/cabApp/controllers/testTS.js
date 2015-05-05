@@ -120,4 +120,3 @@ var highChartSettings = {
 var container = $("#container").highcharts(highChartSettings, function (chart) {
     chart.series[0].setVisible(true, true);
 });
-//# sourceMappingURL=testTS.js.map

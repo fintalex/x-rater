@@ -8,12 +8,17 @@ module ValutesModule {
         listDynamicCurs: any;
         arrayCurs: any[] = [];
         seriesForCurs: any[] = [];
-        chart: HighchartsChartObject;
+		chart: HighchartsChartObject;
+		chosenDataFrom: any;
+		chosenDataTo: any;
 
         static $inject = ['$scope', 'valuteService'];
 
         /** конструктор **/
-        constructor($scope, valuteService) {
+		constructor($scope, valuteService) {
+			this.chosenDataFrom = new Date();
+			this.chosenDataTo = new Date().setMonth(-3);
+
             this.valuteService = valuteService;
 
             this.getValuteList();

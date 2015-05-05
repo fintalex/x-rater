@@ -6,6 +6,9 @@ var ValutesModule;
         function Controller($scope, valuteService) {
             this.arrayCurs = [];
             this.seriesForCurs = [];
+            this.chosenDataFrom = new Date();
+            this.chosenDataTo = new Date().setMonth(-3);
+
             this.valuteService = valuteService;
 
             this.getValuteList();
@@ -105,4 +108,3 @@ var ValutesModule;
     })();
     ValutesModule.Controller = Controller;
 })(ValutesModule || (ValutesModule = {}));
-//# sourceMappingURL=valuteCtrl.js.map
