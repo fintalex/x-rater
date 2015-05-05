@@ -30,8 +30,13 @@ namespace x_rater.Services
 		[WebMethod]
 		public dynamic GetDynamicOfCurs(DateTime? timeFrom, DateTime? timeTo, string valuteCode)
 		{
+            if (timeFrom == null)
+                timeFrom = DateTime.Now.AddMonths(-5);
+            if (timeTo == null)
+                timeTo = DateTime.Now;
+
 			ExChangeRatesController exRatesCtrl = new ExChangeRatesController();
-			List<ValuteCurs> listDynamic = exRatesCtrl.GetDynamicOfCurs(DateTime.Now.AddMonths(-5), DateTime.Now, valuteCode);
+            List<ValuteCurs> listDynamic = exRatesCtrl.GetDynamicOfCurs(timeFrom.Value, timeTo.Value, valuteCode);
 
 			return new { r = JsonConvert.SerializeObject(listDynamic) };
 		}

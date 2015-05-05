@@ -7,3 +7,4 @@
 /// <reference path="rickshaw/rickshaw.d.ts" />
 /// <reference path="bootbox/bootbox.d.ts" />
 /// <reference path="highcharts/highcharts.d.ts" />
+//# sourceMappingURL=reference.js.map

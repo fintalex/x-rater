@@ -6,8 +6,11 @@ var ValutesModule;
         function Controller($scope, valuteService) {
             this.arrayCurs = [];
             this.seriesForCurs = [];
-            this.chosenDataFrom = new Date();
-            this.chosenDataTo = new Date().setMonth(-3);
+            // set current date and 3 month ago
+            var curDate = new Date();
+            curDate.setMonth(curDate.getMonth() - 3);
+            this.chosenDataFrom = curDate;
+            this.chosenDataTo = new Date();
 
             this.valuteService = valuteService;
 
@@ -25,7 +28,7 @@ var ValutesModule;
         /** Получения динамики изменений по курсу валюты !**/
         Controller.prototype.getDynamicCurs = function () {
             var _this = this;
-            this.valuteService.getDynamicOfCurs(null, null, this.chosenValute.Vcode).then(function (resList) {
+            this.valuteService.getDynamicOfCurs(this.chosenDataFrom, this.chosenDataTo, this.chosenValute.Vcode).then(function (resList) {
                 _this.listDynamicCurs = resList;
 
                 // делаем маппинг(на курс и дату) с андерскором для получения массива значений
@@ -108,3 +111,4 @@ var ValutesModule;
     })();
     ValutesModule.Controller = Controller;
 })(ValutesModule || (ValutesModule = {}));
+//# sourceMappingURL=valuteCtrl.js.map

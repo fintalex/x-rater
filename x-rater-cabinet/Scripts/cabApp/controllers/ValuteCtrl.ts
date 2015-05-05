@@ -15,9 +15,12 @@ module ValutesModule {
         static $inject = ['$scope', 'valuteService'];
 
         /** конструктор **/
-		constructor($scope, valuteService) {
-			this.chosenDataFrom = new Date();
-			this.chosenDataTo = new Date().setMonth(-3);
+        constructor($scope, valuteService) {
+            // set current date and 3 month ago
+            var curDate = new Date();
+            curDate.setMonth(curDate.getMonth() - 3);
+            this.chosenDataFrom = curDate;
+            this.chosenDataTo = new Date();
 
             this.valuteService = valuteService;
 
@@ -34,7 +37,7 @@ module ValutesModule {
 
         /** Получения динамики изменений по курсу валюты !**/
         getDynamicCurs() {
-            this.valuteService.getDynamicOfCurs(null, null, this.chosenValute.Vcode).then(
+            this.valuteService.getDynamicOfCurs(this.chosenDataFrom, this.chosenDataTo, this.chosenValute.Vcode).then(
                 (resList) => {
                     this.listDynamicCurs = resList;
                     // делаем маппинг(на курс и дату) с андерскором для получения массива значений
